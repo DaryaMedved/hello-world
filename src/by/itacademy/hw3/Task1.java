@@ -16,7 +16,7 @@ public class Task1 {
         }
         else
         {
-            System.out.println("число рано нулю");
+            System.out.println("Число рано нулю");
         }
     }
 }
