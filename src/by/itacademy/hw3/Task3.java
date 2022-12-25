@@ -18,9 +18,8 @@ public class Task3 {
                 break ;
             case 5 : System.out.println("Пятница");
                 break ;
-            case 6: System.out.println("Выходной-Суббота");
-                break ;
-            case 7: System.out.println("Выходной-Воскресенье");
+            case 6:
+            case 7: System.out.println("Выходной");
                 break;
             default: System.out.println("Ошибка:такого дня недели не существует");
         }
