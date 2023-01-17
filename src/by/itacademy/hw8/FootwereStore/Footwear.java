@@ -48,8 +48,8 @@ public abstract class Footwear {
         long temp;
         result = size.hashCode();
         temp = Double.doubleToLongBits(cost);
-        result = 26 * result + (int) (temp ^ (temp >>> 27));
-        result = 26 * result + color.hashCode();
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        result = 31 * result + color.hashCode();
         return result;
     }
 }
