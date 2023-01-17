@@ -24,6 +24,7 @@ public class CalculatorDemo {
         }
     }
 
+
     public static NumberFormat getNumberFormat() {
         NumberFormat nf = NumberFormat.getInstance(Locale.ROOT);
         nf.setMinimumFractionDigits(2);
