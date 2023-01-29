@@ -14,7 +14,7 @@ public class Tie extends Clothes implements IMaleClothes {
     @Override
     public String toString() {
         return "Галстук{" +
-                " размер = " + getSize() +
+                "размер = " + getSize() +
                 ", цена = " + getCost() + " BYN" +
                 ", цвет = " + getColor() +
                 "}";

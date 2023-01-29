@@ -2,7 +2,7 @@ package by.itacademy.hw8.ClothesStore;
 
 import by.itacademy.hw8.StoreDemoSizes.Sizes;
 
-public abstract class Clothes {
+public abstract class Clothes  {
     private final Sizes size;
     private final String color;
     private double cost;

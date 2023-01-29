@@ -20,7 +20,7 @@ public class Dish implements Cooking {
 
     @Override
     public void cook() {
-        System.out.println(" Cooking dish " + getName());
+        System.out.println("Cooking dish " + getName());
 
     }
 

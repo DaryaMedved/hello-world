@@ -9,12 +9,7 @@ public class CokingDemo {
         Dish dish = new Dish("greekSalad");
         Dish dish1 = new Dish("tomatoWithCheese");
 
-        Cooking drink = new Cooking() {
-            @Override
-            public void cook() {
-                System.out.println(" Preparation of cold drink ");
-            }
-        };
+        Cooking drink = () -> System.out.println("Preparation of cold drink ");
         Cooking[] cookings = {food, food1, food2, dish, dish1, drink};
 
         for (Cooking c : cookings) {

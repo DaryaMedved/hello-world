@@ -14,7 +14,7 @@ public class Trousers extends Clothes implements IMaleClothes, IFemaleClothes {
     @Override
     public String toString() {
         return "Штаны{" +
-                " размер = " + getSize() +
+                "размер = " + getSize() +
                 ", цена = " + getCost() + " BYN" +
                 ", цвет = " + getColor() +
                 "}";

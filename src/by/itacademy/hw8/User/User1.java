@@ -7,7 +7,7 @@ public class User1 {
 
     public class Query {
         public void printToLog() {
-            System.out.printf(" User with login %s and password %s sent query\n",
+            System.out.printf("User with login %s and password %s sent query\n",
                     login, password);
         }
     }

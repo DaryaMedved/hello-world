@@ -20,7 +20,7 @@ public class Food implements Cooking {
 
     @Override
     public void cook() {
-        System.out.println(" Preparation food " + getName());
+        System.out.println("Preparation food " + getName());
 
     }
 

@@ -14,7 +14,7 @@ public class TeeShirt extends Clothes implements IMaleClothes, IFemaleClothes {
     @Override
     public String toString() {
         return "Футболка{" +
-                " размер = " + getSize() +
+                "размер = " + getSize() +
                 ", цена = " + getCost() + " BYN" +
                 ", цвет = " + getColor() +
                 "}";

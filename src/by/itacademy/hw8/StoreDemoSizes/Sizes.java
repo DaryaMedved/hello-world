@@ -4,7 +4,7 @@ public enum Sizes {
     XXS(36) {
         @Override
         public String getDescription() {
-            return "детский размер";
+            return "Детский размер";
         }
     },
     XS(38),
@@ -18,7 +18,7 @@ public enum Sizes {
     }
 
     public String getDescription() {
-        return "взрослый размер";
+        return "Взрослый размер";
     }
 
     @Override

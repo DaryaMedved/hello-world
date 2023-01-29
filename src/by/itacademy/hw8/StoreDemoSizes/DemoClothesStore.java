@@ -9,19 +9,19 @@ import by.itacademy.hw8.FootwereStore.Sneakers;
 public class DemoClothesStore {
     public static void main(String[] args) {
         Clothes[] clothes = {
-                new TeeShirt(Sizes.XS, "темно-серый", 350),
-                new TeeShirt(Sizes.L, "черный", 250),
-                new Trousers(Sizes.M, "голубой", 500),
-                new Trousers(Sizes.XXS, "синий", 225),
-                new Skirt(Sizes.S, "розовый", 400),
-                new Skirt(Sizes.M, "красный", 520),
-                new Tie(Sizes.L, "синий", 300),
-                new Tie(Sizes.L, "красный", 280),
+                new TeeShirt(Sizes.XS, "темно-серый", 35),
+                new TeeShirt(Sizes.L, "черный", 25),
+                new Trousers(Sizes.M, "голубой", 50),
+                new Trousers(Sizes.XXS, "синий", 22),
+                new Skirt(Sizes.S, "розовый", 40),
+                new Skirt(Sizes.M, "красный", 52),
+                new Tie(Sizes.L, "синий", 30),
+                new Tie(Sizes.L, "красный", 28),
         };
 
         Footwear[] footwear = {
-                new Boots(Sizes.S, "черный", 366),
-                new Sneakers(Sizes.L, "белый", 666),
+                new Boots(Sizes.S, "черный", 36),
+                new Sneakers(Sizes.L, "белый", 66),
         };
 
         DressMakingStudio studio = new DressMakingStudio();

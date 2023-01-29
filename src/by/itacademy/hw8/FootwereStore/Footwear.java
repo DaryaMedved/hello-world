@@ -3,8 +3,8 @@ package by.itacademy.hw8.FootwereStore;
 import by.itacademy.hw8.ClothesStore.Clothes;
 import by.itacademy.hw8.StoreDemoSizes.Sizes;
 public abstract class Footwear {
-    private Sizes size;
-    private String color;
+    private final Sizes size;
+    private final String color;
     private double cost;
 
     public Footwear(Sizes size, String color) {
