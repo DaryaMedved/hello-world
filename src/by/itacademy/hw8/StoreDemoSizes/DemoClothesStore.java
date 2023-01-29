@@ -6,7 +6,7 @@ import by.itacademy.hw8.FootwereStore.Footwear;
 import by.itacademy.hw8.FootwereStore.ShoesMakingStudios;
 import by.itacademy.hw8.FootwereStore.Sneakers;
 
-public class Demo {
+public class DemoClothesStore {
     public static void main(String[] args) {
         Clothes[] clothes = {
                 new TeeShirt(Sizes.XS, "темно-серый", 350),

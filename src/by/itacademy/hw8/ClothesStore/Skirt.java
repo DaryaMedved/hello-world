@@ -14,7 +14,7 @@ public class Skirt extends Clothes implements IFemaleClothes {
     @Override
     public String toString() {
         return "Юбка{" +
-                "размер = " + getSize() +
+                " размер = " + getSize() +
                 ", цена = " + getCost() + " BYN" +
                 ", цвет = " + getColor() +
                 "}";

@@ -12,7 +12,7 @@ public class CokingDemo {
         Cooking drink = new Cooking() {
             @Override
             public void cook() {
-                System.out.println("Preparation of cold drink");
+                System.out.println(" Preparation of cold drink ");
             }
         };
         Cooking[] cookings = {food, food1, food2, dish, dish1, drink};

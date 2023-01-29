@@ -26,5 +26,5 @@ public enum Sizes {
         return name() + "(" + EuroSize + ") " + getDescription();
     }
 
-    private int EuroSize;
+    private final int EuroSize;
 }
