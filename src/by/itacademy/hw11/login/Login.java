@@ -81,7 +81,7 @@ public class Login extends JFrame implements ActionListener {
         }
     }
 
-    private boolean checkLogInInfo(String login, String password, String confirmPassword, String regex)
+    private void checkLogInInfo(String login, String password, String confirmPassword, String regex)
             throws WrongLoginException, WrongPasswordException {
         if (!login.matches(regex)) {
             throw new WrongLoginException("Incorrect login");
@@ -90,6 +90,5 @@ public class Login extends JFrame implements ActionListener {
                 !password.equals(confirmPassword)) {
             throw new WrongPasswordException("Incorrect password");
         }
-        return true;
     }
 }

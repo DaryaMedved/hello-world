@@ -1,7 +1,7 @@
 package by.itacademy.hw11.exception;
 
 public class WrongLoginException extends Exception {
-    private String detail;
+    private final String detail;
 
     public WrongLoginException() {
         detail = "Incorrect login";
