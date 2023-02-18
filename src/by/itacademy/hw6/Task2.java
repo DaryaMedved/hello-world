@@ -3,7 +3,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 public class Task2 {
     public static void main(String[] args) {
-        String text = " 9996666888991";
+        String text = "123456asd88";
         int maxLen = 0;
 
         Matcher m = Pattern.compile("(.)\\1+").matcher(text);
