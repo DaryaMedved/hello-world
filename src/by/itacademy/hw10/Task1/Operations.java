@@ -14,8 +14,7 @@ public class Operations {
         resultSet.retainAll(set2);
         return resultSet;
     }
-    protected static void printSet(String name,
-                                   Set set) {
+    protected static void printSet(String name, Set set) {
         System.out.printf("%s: %s\n", name, set);
     }
 }

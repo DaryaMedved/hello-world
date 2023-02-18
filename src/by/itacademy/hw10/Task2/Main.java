@@ -1,32 +1,18 @@
 package by.itacademy.hw10.Task2;
 
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Map;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
+        String str = "cat. is Very good friend...  World cat Very   ";
 
-        String st = "Do you like cats I really like cats";
+        Map<String, Integer> wordCounts = new HashMap<>();
 
-        String[] words = st.split(" ");
+        Arrays.stream(str.split("[ ,.]")).filter(w -> w.length() > 0)
+                .forEach(w -> wordCounts.put(w, wordCounts.getOrDefault(w, 0) + 1));
 
-        HashMap<String, Integer> keyValue = new HashMap<>();
-
-        for (int i = 0; i <= words.length - 1; i++) {
-
-            if (keyValue.containsKey(words[i])) {
-
-                int counter = keyValue.get(words[i]);
-
-                keyValue.put(words[i], counter + 1);
-
-            } else {
-
-                keyValue.put(words[i], 1);
-            }
-        }
-        System.out.println(keyValue);
-
+        System.out.println(wordCounts);
     }
 }
-
-

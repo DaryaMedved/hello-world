@@ -6,7 +6,7 @@ public class Stack {
     private final int capacity;
 
 
-    Stack(int size) {
+   private Stack(int size) {
         arr = new int[size];
         capacity = size;
         top = -1;

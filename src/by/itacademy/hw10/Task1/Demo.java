@@ -1,7 +1,5 @@
 package by.itacademy.hw10.Task1;
 
-import by.itacademy.hw10.Task1.Operations;
-
 import java.util.*;
 
 public class Demo {
