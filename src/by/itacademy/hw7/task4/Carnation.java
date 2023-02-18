@@ -1,8 +1,5 @@
-package by.itacademy.hw7.FlowerB;
+package by.itacademy.hw7.task4;
 
-
-import by.itacademy.hw7.FlowerB.Flower;
-import by.itacademy.hw7.FlowerB.FlowerMarket;
 
 public class Carnation extends Flower {
     private static int count;

@@ -1,8 +1,4 @@
-package by.itacademy.hw7.Fruits;
-import by.itacademy.hw7.Fruits.Apple;
-import by.itacademy.hw7.Fruits.Apricot;
-import by.itacademy.hw7.Fruits.Fruit;
-import by.itacademy.hw7.Fruits.Pear;
+package by.itacademy.hw7.task3;
 
 import java.util.ArrayList;
 import java.util.List;

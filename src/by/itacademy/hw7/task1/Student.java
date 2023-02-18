@@ -1,4 +1,4 @@
-package by.itacademy.hw7;
+package by.itacademy.hw7.task1;
 
 public class Student {
     public String firstName;
@@ -16,9 +16,7 @@ public class Student {
 
         System.out.println(firstName + " " + lastName + ", "
                 + groupNumber + ", " + nameGroup + " " + avgMark
-                + ", " + "степендия:" + " " + getScholarship());
-    }
-    public Student() {
+                + ", " + "стипендия:" + " " + getScholarship());
     }
 
     public double getScholarship() {

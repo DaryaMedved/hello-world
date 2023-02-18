@@ -1,4 +1,4 @@
-package by.itacademy.hw7.Fruits;
+package by.itacademy.hw7.task3;
 
 public abstract class Fruit {
     private double price;

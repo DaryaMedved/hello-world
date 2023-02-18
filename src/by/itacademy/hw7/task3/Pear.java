@@ -1,18 +1,18 @@
-package by.itacademy.hw7.Fruits;
+package by.itacademy.hw7.task3;
 
-public class Apricot extends Fruit {
+public class Pear extends Fruit {
     private static int count;
     private static double totalWeight;
     private static double totalCost;
 
-    public Apricot() {
-        super("Абрикос");
-        setWeight(0.19 * (Math.random() + 1));
+    public Pear() {
+        super("Груша");
+        setWeight(0.66 * (Math.random() + 1));
         totalWeight += getWeight();
         count++;
     }
 
-    public Apricot(double price) {
+    public Pear(double price) {
         this();
         this.setPrice(price);
         totalCost += getCost();
@@ -37,6 +37,6 @@ public class Apricot extends Fruit {
 
     @Override
     public String toString() {
-        return "Apricot{" + "name='" + getName() + "\n" + ", weight=" + getWeight() + "}";
+        return "Pear{" + "name='" + getName() + "\n" + ", weight=" + getWeight() + "}";
     }
 }

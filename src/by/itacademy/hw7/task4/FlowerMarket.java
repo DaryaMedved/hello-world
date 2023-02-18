@@ -1,4 +1,4 @@
-package by.itacademy.hw7.FlowerB;
+package by.itacademy.hw7.task4;
 
 
 public class FlowerMarket {

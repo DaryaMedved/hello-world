@@ -1,7 +1,4 @@
-package by.itacademy.hw7.FlowerB;
-
-import by.itacademy.hw7.FlowerB.Flower;
-import by.itacademy.hw7.FlowerB.FlowerMarket;
+package by.itacademy.hw7.task4;
 
 public class Rose extends Flower {
     private static int count;

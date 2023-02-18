@@ -1,7 +1,7 @@
-package by.itacademy.hw7;
+package by.itacademy.hw7.task1;
 
 public class Aspirant extends Student {
-    String scienceWork;
+    private final String scienceWork;
 
     public Aspirant(String firstName, String lastName,
                     String groupNumber, String nameGroup,
@@ -10,17 +10,9 @@ public class Aspirant extends Student {
         this.scienceWork = scienceWork;
     }
 
-    void print() {
-        System.out.println(firstName);
-    }
-
     @Override
     public double getScholarship() {
         return avgMark == 5 ? 200 : 180;
-    }
-
-    Aspirant(String scienceWork) {
-        this.scienceWork = scienceWork;
     }
 
     public static void main(String[] args) {
@@ -35,5 +27,9 @@ public class Aspirant extends Student {
         for (Student s : students) {
             System.out.println(s.lastName + " " + s.getScholarship());
         }
+    }
+
+    public String getScienceWork() {
+        return scienceWork;
     }
 }

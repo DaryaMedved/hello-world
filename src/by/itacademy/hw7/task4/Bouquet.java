@@ -1,5 +1,4 @@
-package by.itacademy.hw7.FlowerB;
-import by.itacademy.hw7.FlowerB.Flower;
+package by.itacademy.hw7.task4;
 
 import java.util.HashMap;
 import java.util.Map;
