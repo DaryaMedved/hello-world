@@ -18,7 +18,7 @@ public class Stack {
             System.exit(1);
         }
 
-        System.out.println("Добавлен элемент " + x);
+        System.out.println(" Добавлен элемент " + x);
         arr[++top] = x;
     }
 

@@ -6,7 +6,7 @@ import java.util.Map;
 
 class Main {
     public static void main(String[] args) {
-        String str = "cat. is Very good friend...  World cat Very   ";
+        String str = "cat. is Very good friend... World cat Very   ";
 
         Map<String, Integer> wordCounts = new HashMap<>();
 
