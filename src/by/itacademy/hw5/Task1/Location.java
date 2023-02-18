@@ -8,7 +8,7 @@ public class Location {
     public static final double EARTH_RADIUS = 6.371e6;
 
     public Location() {
-        this(49.9935, 36.2304);
+        this(49.9938, 36.2304);
     }
 
     public Location(double latitude, double longitude) {

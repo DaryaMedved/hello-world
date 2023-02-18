@@ -6,7 +6,7 @@ import java.io.IOException;
 public class MatrixDemo {
     public static void main(String[] args) throws IOException {
 
-        FileWriter fw = new FileWriter("matrix.txt");
+        FileWriter fw = new FileWriter(" matrix.txt ");
 
         Matrix a = new Matrix(4, 4);
         a.fillRandom();

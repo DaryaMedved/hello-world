@@ -27,7 +27,7 @@ public class PersonDemo {
 
         try {
             demo(new Person(), currentLocation, destinationLocation, 3);
-            demo(new Person("Jenna", 20), currentLocation, destinationLocation, 5);
+            demo(new Person("Wilfred", 20), currentLocation, destinationLocation, 5);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

@@ -6,7 +6,7 @@ public class Phone {
     public int number;
     public String model;
     public int weight;
-    String name = "Wilfred";
+    String name = "Muss";
 
     public void receiveCall() {
         System.out.println("Звонит " + name);

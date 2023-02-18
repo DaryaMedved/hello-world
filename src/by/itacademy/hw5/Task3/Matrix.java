@@ -107,7 +107,7 @@ public class Matrix {
     }
 
     public void toFile(FileWriter fw, String matrixName) throws IOException {
-        fw.write("Matrix " + matrixName + ":\n");
+        fw.write("Matrix" + matrixName + ":\n");
         for (int i = 0; i < rowsQuantity; i++) {
             for (int j = 0; j < columnsQuantity; j++) {
                 fw.write(this.getElement(i, j) + "\t");

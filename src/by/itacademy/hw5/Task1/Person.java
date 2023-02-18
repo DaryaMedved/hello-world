@@ -8,7 +8,7 @@ public class Person {
     private Location currentLocation;
 
     public Person() {
-        this("", 0);
+        this(" ", 0);
     }
 
     public Person(String fullName, int age) {
